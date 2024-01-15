@@ -4,8 +4,8 @@ name2 = input() # What is their name?
 # 🚨 Don't change the code above 👆
 # Write your code below this line 👇
 
-namesToGether = name1 + name2;
-
+namesToGether = name1 + name2
+namesTogether = namesTogether.lower()
 ##True
 tCounter = 0
 for letter in namesToGether:

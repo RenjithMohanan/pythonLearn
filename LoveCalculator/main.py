@@ -21,7 +21,7 @@ totalCount = str(tCounter) + str(lCounter)
 
 if(int(totalCount) < 10 or int(totalCount)> 90):
   print(f"Your score is {totalCount}, you got together like coke and mentos.")
-elif(int(totalCount) > 40 or int(totalCount)< 50):
+elif(int(totalCount) >= 40 or int(totalCount)<= 50):
   print(f"Your score is {totalCount}, you are alright together.")
 else:
   print(f"Your score is {totalCount}")
